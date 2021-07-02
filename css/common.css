@@ -1,0 +1,70 @@
+/* common class */
+.wrap{
+	padding-top: 145px; 
+}
+.inner{
+	padding: 0 6%;
+}
+
+/* ===== header ===== */
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 24px 0;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #fff;
+}
+.header__top,
+.header__bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo__title{
+	font-family: Mulish;
+	font-size: 24px;
+}
+.logo__mark{
+	width: 124px;
+	height: auto;
+}
+
+.header__bottom{
+	margin-top: 36px;
+}
+
+/* gnb */
+.lst__gnb{
+	display: flex;
+	align-items: center;
+}
+.gnb__item{
+	font-size: 16px;
+}
+.gnb__item + .gnb__item{
+	margin-left: 46px;
+}
+.gnb__item:first-child{
+	font-weight: 700;
+}
+
+/* util-menu */
+.lst__util-menu{
+	display: flex;
+	align-items: center;
+}
+.util-menu__item + .util-menu__item{
+	margin-left: 24px;
+}
+.util-menu__item .util-menu__link{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.util-menu__item .icon{
+	height: 30px;
+	width: auto;
+}
