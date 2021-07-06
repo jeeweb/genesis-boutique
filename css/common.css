@@ -47,7 +47,7 @@
 .gnb__item + .gnb__item{
 	margin-left: 46px;
 }
-.gnb__item:first-child{
+.gnb__item.on{
 	font-weight: 700;
 }
 
