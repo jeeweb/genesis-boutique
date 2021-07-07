@@ -1,0 +1,44 @@
+/* ===== sub common ===== */
+.sub-container{
+	background-color: #fff;
+	color: #000;
+}
+/* lnb */
+.lnb{
+	width: 182px;
+	padding: 32px 0;
+	margin-right: 60px;
+	
+}
+.lnb__title{
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 25px;
+	border-bottom: 3px solid #000;
+}
+.lst__lnb{
+	padding: 24px 0;
+}
+.lst__lnb .lnb__link{
+	display: block;
+	padding: 12px 0;
+	color: #333;
+}
+
+/* section__sub-contents */
+.section__sub-contents{
+	max-width: calc(100% - 242px)
+}
+.sub__top-image img{
+	width: 100%;
+}
+.sub__desc{
+	margin: 92px 0; 
+	font-size: 1.2em;
+}
+.sub__desc strong{
+	display: block;
+	font-weight: 400;
+	font-size: 2em;
+	padding-bottom: 60px;
+}
