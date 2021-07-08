@@ -20,3 +20,10 @@
 .section__main-contents{
 	width: 59%;
 }
+
+.main-container .cards__item{
+	width: calc((100% - 22px) / 2);
+}
+.main-container .cards__item:nth-child(2n+1){
+	margin-left: 0;
+}
