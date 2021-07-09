@@ -9,6 +9,9 @@
 	font-size: 14px;
 	color: #A46B4D;
 }
+.flex{
+	display: flex;
+}
 
 /* ===== header ===== */
 .header{
