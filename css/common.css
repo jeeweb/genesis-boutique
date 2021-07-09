@@ -151,9 +151,6 @@ address{
 /* ===== container ===== */
 
 /* container */
-.container{
-	padding-bottom: 24px;
-}
 .container__wrap{
 	display: flex;
 }
