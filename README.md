@@ -1,4 +1,4 @@
-# genesis-boutique
+# GENESIS BOUTIQUE
  제네시스 부티크 사이트 클론코딩  
  (참고사이트: https://shop.genesis.com/)
 
@@ -11,4 +11,4 @@
 - [x] by킨포크
 - [x] 브랜드 굿즈
 - [x] 회원전용
-- [ ] 통합검색   
+- [x] 통합검색   
