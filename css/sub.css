@@ -151,3 +151,75 @@
 .sub-container .section__cards .lst__cards{
 	padding: 70px 0 94px 242px;
 }
+
+
+/* search 통합검색 */
+.search-container {
+	display: flex;
+	justify-content: center;
+}
+.section__search{
+	margin-top: 72px;
+	width: 700px;
+}
+.search__title{
+	display: block;
+	font-weight: 300;
+	font-size: 2.4em;
+	text-align: center;
+}
+.form__search{
+	position: relative;
+	width: 700px;
+	margin: 52px 0 42px;
+}
+.input__search{
+	width: 100%;
+	padding: 14px 8px;
+	border: 0;
+	font-size: 1.4em;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	outline: none;
+}
+.btn__search{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	width: 48px;
+	height: 48px;
+}
+.btn__search img{
+	width: 100%;
+	height: auto;
+}
+
+.search__recent{
+	width: 700px
+}
+.recent__top{
+	display: flex;
+	margin-bottom: 12px;
+}
+.search__sub-title{
+	font-size: 24px;
+	font-weight: 600;
+	margin-right: 8px;
+}
+.btn__delete-all{
+	color: #666;
+	font-size: 0.9em;
+}
+.lst__recent{
+	color: #666;
+	font-size: 1.1em;
+}
+.recent__item{
+	display: flex;
+	align-items: center;
+	padding: 7px 0;
+}
+.btn__delete{
+	margin-left: 10px;
+}

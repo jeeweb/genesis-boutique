@@ -151,13 +151,15 @@ address{
 /* ===== container ===== */
 
 /* container */
+.container{
+	min-height: 512px;
+}
 .container__wrap{
 	display: flex;
 }
 .section{
 	flex-grow: 1;
 }
-
 
 /* cards */
 .lst__cards{
